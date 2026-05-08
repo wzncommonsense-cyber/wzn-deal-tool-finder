@@ -9,7 +9,7 @@ import { blogPosts } from "../../../data/blog-posts";
 export const metadata = createMetadata({
   title: "Blog",
   description:
-    "Lees praktische artikelen over AI tools, hosting, drukwerk, boekhouding en social media voor ondernemers.",
+    "Lees praktische artikelen over AI-tools, hosting, drukwerk, boekhouding en social media voor ondernemers.",
   path: "/blog",
 });
 

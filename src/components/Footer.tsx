@@ -18,7 +18,8 @@ export function Footer() {
           </div>
           <p className="mt-4 max-w-xl text-sm leading-6 text-slate-600">
             WZN Deal & Tool Finder helpt ondernemers sneller passende tools,
-            diensten en deals vinden. Sommige links zijn affiliate links.
+            diensten en deals vinden. Sommige links zijn affiliate links; dat
+            staat duidelijk vermeld op de site.
           </p>
         </div>
 
@@ -26,7 +27,7 @@ export function Footer() {
           <p className="font-semibold text-slate-950">Pagina&apos;s</p>
           <div className="mt-3 grid gap-2 text-sm text-slate-600">
             <Link href="/categorieen" className="hover:text-[#0e7c66]">
-              Categorieen
+              Categorieën
             </Link>
             <Link href="/deals" className="hover:text-[#0e7c66]">
               Alle deals
@@ -61,10 +62,10 @@ export function Footer() {
             <a
               href={withWznUtm()}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="inline-flex min-h-10 items-center justify-center rounded-lg bg-[#07111f] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#12243b]"
             >
-              Bekijk WZN Productions
+              Bekijk WZN Production
             </a>
             <a
               href={`mailto:${siteConfig.email}`}

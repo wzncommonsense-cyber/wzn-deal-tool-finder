@@ -5,7 +5,7 @@ export function AffiliateNotice() {
     <div className="rounded-xl border border-slate-200 bg-white p-5 text-sm leading-6 text-slate-600">
       <p>
         Sommige links op deze website zijn affiliate links. Als je via zo&apos;n link
-        iets koopt of aanvraagt, kan WZN Productions een commissie ontvangen.
+        iets koopt of aanvraagt, kan WZN Production een commissie ontvangen.
         Jij betaalt hierdoor niets extra. Wij proberen alleen tools en diensten
         te tonen die relevant zijn voor ondernemers.
       </p>

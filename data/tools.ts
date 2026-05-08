@@ -59,7 +59,7 @@ export const tools: Tool[] = [
     name: "AI Content Tool",
     category: "ai-tools",
     shortDescription:
-      "AI-tool voor ondernemers die sneller teksten, ideeen en content willen voorbereiden.",
+      "AI-tool voor ondernemers die sneller teksten, ideeën en content willen voorbereiden.",
     description:
       "AI Content Tool helpt bij het maken van eerste versies voor social posts, blogs, productteksten en e-mails. De tool is vooral handig als je sneller van idee naar concept wilt gaan, terwijl je de output zelf blijft controleren en aanpassen aan jouw bedrijf.",
     targetAudience: ["zzp", "kleine bedrijven", "marketing", "starters"],
@@ -111,7 +111,7 @@ export const tools: Tool[] = [
     name: "AI Beeldgenerator voor Content",
     category: "ai-tools",
     shortDescription:
-      "Maak conceptbeelden voor social media, advertenties en campagne-ideeen.",
+      "Maak conceptbeelden voor social media, advertenties en campagne-ideeën.",
     description:
       "Een AI-beeldgenerator kan helpen bij het uitwerken van visuele richtingen voor posts, flyers, banners en advertenties. Vooral handig voor het testen van stijlen en campagnebeelden voordat je definitief ontwerpwerk laat maken.",
     targetAudience: ["creators", "marketing", "kleine bedrijven"],
@@ -174,7 +174,7 @@ export const tools: Tool[] = [
     ],
     attentionPoints: [
       "Updates en beveiliging blijven belangrijk",
-      "Plugins kunnen snelheid beinvloeden",
+      "Plugins kunnen snelheid beïnvloeden",
       "Controleer of back-ups zijn inbegrepen",
     ],
     priceLabel: "Abonnement",
@@ -397,7 +397,7 @@ export const tools: Tool[] = [
     name: "Contentkalender Tool",
     category: "social-media",
     shortDescription:
-      "Tool om campagnes, posts, ideeen en publicatiedata overzichtelijk te plannen.",
+      "Tool om campagnes, posts, ideeën en publicatiedata overzichtelijk te plannen.",
     description:
       "Een contentkalender is handig voor ondernemers die meer structuur willen in hun communicatie. Je ziet welke posts, acties, mails en campagnes eraan komen en voorkomt dat alles op het laatste moment moet.",
     targetAudience: ["marketing", "kleine bedrijven", "creators"],

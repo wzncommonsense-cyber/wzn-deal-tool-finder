@@ -17,13 +17,13 @@ export type Category = {
 export const categories: Category[] = [
   {
     slug: "ai-tools",
-    name: "AI tools",
+    name: "AI-tools",
     shortName: "AI",
-    seoTitle: "AI tools voor kleine ondernemers vergelijken",
+    seoTitle: "AI-tools voor kleine ondernemers vergelijken",
     metaDescription:
-      "Bekijk praktische AI tools voor ondernemers, zzp'ers en lokale bedrijven. Vergelijk functies, prijsmodel en aandachtspunten.",
+      "Bekijk praktische AI-tools voor ondernemers, zzp'ers en lokale bedrijven. Vergelijk functies, prijsmodel en aandachtspunten.",
     intro:
-      "AI tools kunnen ondernemers helpen om sneller teksten, ideeen, beelden en klantantwoorden voor te bereiden.",
+      "AI-tools kunnen ondernemers helpen om sneller teksten, ideeën, beelden en klantantwoorden voor te bereiden.",
     explanation:
       "Gebruik AI vooral als praktische hulp. Laat de tool het eerste werk doen, maar controleer altijd feiten, toon, privacy en claims. Voor ondernemers werkt AI het best wanneer het gekoppeld is aan duidelijke processen, zoals contentplanning, klantenservice of interne documentatie.",
     faq: [
@@ -40,7 +40,7 @@ export const categories: Category[] = [
       {
         question: "Kan WZN Production helpen met AI in mijn bedrijf?",
         answer:
-          "Ja. WZN Production helpt met praktische AI tools, prompts en workflows die passen bij jouw website, content of dagelijkse werk.",
+          "Ja. WZN Production helpt met praktische AI-tools, prompts en workflows die passen bij jouw website, content of dagelijkse werk.",
       },
     ],
   },
@@ -243,7 +243,7 @@ export const categories: Category[] = [
       {
         question: "Waar kan WZN Production bij helpen?",
         answer:
-          "WZN Production helpt met websites, webapps, AI tools, automatisering, promotiecontent en visuals.",
+          "WZN Production helpt met websites, webapps, AI-tools, automatisering, promotiecontent en visuals.",
       },
     ],
   },

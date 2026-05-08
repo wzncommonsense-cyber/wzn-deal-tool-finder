@@ -32,7 +32,7 @@ export default function AboutPage() {
             </p>
             <p>
               Sommige links zijn affiliate links. Dat kost de bezoeker niets
-              extra, maar kan WZN Productions een commissie opleveren. De
+              extra, maar kan WZN Production een commissie opleveren. De
               bedoeling is om alleen tools en diensten te tonen die relevant
               zijn voor ondernemers.
             </p>

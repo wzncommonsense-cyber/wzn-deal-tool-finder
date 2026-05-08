@@ -92,7 +92,7 @@ export function ToolCard({ tool }: { tool: Tool }) {
         <a
           href={`${withWznUtm(siteConfig.wznUrl, "tool_card_help")}`}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           className="inline-flex min-h-11 items-center justify-center rounded-lg border border-slate-200 px-4 py-2.5 text-sm font-semibold text-slate-800 transition hover:border-[#0e7c66] hover:text-[#0e7c66] sm:flex-1"
         >
           Laat WZN je helpen

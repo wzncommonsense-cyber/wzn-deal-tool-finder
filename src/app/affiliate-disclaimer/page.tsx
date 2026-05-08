@@ -21,7 +21,7 @@ export default function AffiliateDisclaimerPage() {
         <div className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-8">
           <p className="text-lg leading-8 text-slate-800">
             Sommige links op deze website zijn affiliate links. Als je via zo&apos;n
-            link iets koopt of aanvraagt, kan WZN Productions een commissie
+            link iets koopt of aanvraagt, kan WZN Production een commissie
             ontvangen. Jij betaalt hierdoor niets extra. Wij proberen alleen
             tools en diensten te tonen die relevant zijn voor ondernemers.
           </p>
@@ -33,7 +33,7 @@ export default function AffiliateDisclaimerPage() {
             </p>
             <p>
               Een vermelding op deze website betekent niet automatisch dat er een
-              officiele samenwerking, beoordeling of garantie bestaat. Controleer
+              officiële samenwerking, beoordeling of garantie bestaat. Controleer
               voorwaarden, prijzen en functies altijd zelf bij de aanbieder.
             </p>
           </div>

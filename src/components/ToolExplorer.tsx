@@ -159,7 +159,7 @@ export function ToolExplorer({
               }
               className="h-12 w-full rounded-lg border border-slate-200 bg-slate-50 px-3 text-sm text-slate-900 outline-none transition focus:border-[#0e7c66] focus:bg-white focus:ring-2 focus:ring-[#0e7c66]/20 sm:max-w-sm"
             >
-              <option value="all">Alle categorieen</option>
+              <option value="all">Alle categorieën</option>
               {categories.map((item) => (
                 <option key={item.slug} value={item.slug}>
                   {item.name}

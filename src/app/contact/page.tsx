@@ -1,11 +1,12 @@
 import { ExternalLink, Mail } from "lucide-react";
+import { ContactForm } from "@/components/ContactForm";
 import { PageHero } from "@/components/PageHero";
 import { createMetadata, siteConfig, withWznUtm } from "@/lib/site";
 
 export const metadata = createMetadata({
   title: "Contact",
   description:
-    "Neem contact op met WZN Production voor hulp met websites, AI tools, automatisering, social media of promotiecontent.",
+    "Neem contact op met WZN Production voor hulp met websites, AI-tools, automatisering, social media of promotiecontent.",
   path: "/contact",
 });
 
@@ -37,7 +38,7 @@ export default function ContactPage() {
             <a
               href={withWznUtm()}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="inline-flex min-h-12 items-center justify-center gap-2 rounded-lg border border-slate-200 px-5 py-3 text-sm font-semibold text-slate-800 transition hover:border-[#0e7c66] hover:text-[#0e7c66]"
             >
               Bekijk wznproduction.nl
@@ -46,45 +47,7 @@ export default function ContactPage() {
           </div>
         </div>
 
-        <form className="rounded-2xl border border-slate-200 bg-white p-6">
-          <h2 className="text-2xl font-semibold tracking-tight text-slate-950">
-            Snelle aanvraag
-          </h2>
-          <p className="mt-3 text-sm leading-6 text-slate-600">
-            Gebruik de knop hieronder om je bericht direct via je eigen
-            e-mailprogramma te versturen.
-          </p>
-          <div className="mt-6 grid gap-4">
-            <label className="grid gap-2 text-sm font-medium text-slate-700">
-              Naam
-              <input
-                className="h-11 rounded-lg border border-slate-200 bg-slate-50 px-3 text-sm outline-none focus:border-[#0e7c66] focus:bg-white focus:ring-2 focus:ring-[#0e7c66]/20"
-                placeholder="Jouw naam"
-              />
-            </label>
-            <label className="grid gap-2 text-sm font-medium text-slate-700">
-              E-mail
-              <input
-                type="email"
-                className="h-11 rounded-lg border border-slate-200 bg-slate-50 px-3 text-sm outline-none focus:border-[#0e7c66] focus:bg-white focus:ring-2 focus:ring-[#0e7c66]/20"
-                placeholder="jij@bedrijf.nl"
-              />
-            </label>
-            <label className="grid gap-2 text-sm font-medium text-slate-700">
-              Waar wil je hulp bij?
-              <textarea
-                className="min-h-32 rounded-lg border border-slate-200 bg-slate-50 px-3 py-3 text-sm outline-none focus:border-[#0e7c66] focus:bg-white focus:ring-2 focus:ring-[#0e7c66]/20"
-                placeholder="Bijvoorbeeld: website, AI workflow, social posts of toolfinder."
-              />
-            </label>
-            <a
-              href={`mailto:${siteConfig.email}?subject=Nieuwe%20aanvraag%20WZN`}
-              className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#07111f] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#12243b]"
-            >
-              Verstuur via e-mail
-            </a>
-          </div>
-        </form>
+        <ContactForm email={siteConfig.email} />
       </section>
     </>
   );

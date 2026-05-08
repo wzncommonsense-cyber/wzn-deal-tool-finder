@@ -82,7 +82,7 @@ export default function Image() {
                 lineHeight: 1.35,
               }}
             >
-              AI tools, hosting, drukwerk, boekhouding, social media en meer.
+              AI-tools, hosting, drukwerk, boekhouding, social media en meer.
             </div>
           </div>
         </div>

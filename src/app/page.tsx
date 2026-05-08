@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Search } from "lucide-react";
+import { ArrowRight, CheckCircle2, Search } from "lucide-react";
 import { AffiliateNotice } from "@/components/AffiliateNotice";
 import { CategoryGrid } from "@/components/CategoryGrid";
 import { ToolCard } from "@/components/ToolCard";
@@ -17,7 +17,7 @@ export const metadata = createMetadata({
   keywords: [
     "affiliate tools",
     "ondernemerstools",
-    "AI tools",
+    "AI-tools",
     "website hosting",
     "WZN Production",
   ],
@@ -39,6 +39,26 @@ export default function Home() {
               zzp&apos;ers en lokale bedrijven sneller passende software, diensten
               en praktische aanbiedingen vinden.
             </p>
+
+            <div className="mt-6 grid gap-2 text-sm text-slate-200 sm:grid-cols-3">
+              {[
+                "Handmatig beheerde links",
+                "Duidelijke affiliate melding",
+                "Geen verzonnen reviews",
+              ].map((item) => (
+                <div
+                  key={item}
+                  className="flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 px-3 py-2"
+                >
+                  <CheckCircle2
+                    aria-hidden="true"
+                    size={16}
+                    className="shrink-0 text-[#7ce7cb]"
+                  />
+                  <span>{item}</span>
+                </div>
+              ))}
+            </div>
 
             <form
               action="/deals"
@@ -80,7 +100,6 @@ export default function Home() {
           </div>
 
           <div className="relative">
-            <div className="absolute -inset-4 rounded-3xl bg-[#2bd4a7]/10 blur-2xl" />
             <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-2xl shadow-black/30">
               <Image
                 src="/wzn-tool-finder-hero.png"
@@ -104,7 +123,7 @@ export default function Home() {
             </h2>
             <p className="mt-4 text-base leading-7 text-slate-600">
               De site is opgezet als praktische vergelijker. Je vindt hier
-              categorieen zoals AI-tools, hosting, drukwerk, boekhouding,
+              categorieën zoals AI-tools, hosting, drukwerk, boekhouding,
               social media planning, cursussen, e-mail marketing en
               ondernemersdiensten. De vermeldingen zijn bedoeld als startpunt:
               controleer altijd zelf of een tool, dienst of prijsmodel past bij
@@ -131,7 +150,7 @@ export default function Home() {
         <div className="mb-7 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <h2 className="text-3xl font-semibold tracking-tight text-slate-950">
-              Populaire categorieen
+              Populaire categorieën
             </h2>
             <p className="mt-2 text-sm leading-6 text-slate-600">
               Start bij de categorie die past bij je vraag of bedrijfsfase.
@@ -141,7 +160,7 @@ export default function Home() {
             href="/categorieen"
             className="inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-[#0e7c66] hover:text-[#0b6654]"
           >
-            Bekijk alle categorieen
+            Bekijk alle categorieën
             <ArrowRight aria-hidden="true" size={17} />
           </Link>
         </div>
@@ -180,7 +199,7 @@ export default function Home() {
         <div className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>
             <h2 className="text-3xl font-semibold tracking-tight text-slate-950">
-              Waarom via WZN Deal Finder?
+              Waarom via WZN Deal & Tool Finder?
             </h2>
             <p className="mt-4 text-base leading-7 text-slate-600">
               De website is gemaakt voor ondernemers die snel willen vergelijken
@@ -200,11 +219,11 @@ export default function Home() {
               },
               {
                 title: "Geen onduidelijke samenwerkingen",
-                text: "Een vermelding betekent niet automatisch dat er een officiele samenwerking bestaat.",
+                text: "Een vermelding betekent niet automatisch dat er een officiële samenwerking bestaat.",
               },
               {
                 title: "SEO-vriendelijke structuur",
-                text: "Categorieen, toolpagina's en blogs hebben eigen metadata en duidelijke Nederlandse content.",
+                text: "Categorieën, toolpagina's en blogs hebben eigen metadata en duidelijke Nederlandse content.",
               },
             ].map((item) => (
               <div key={item.title} className="rounded-xl border border-slate-200 bg-white p-5">

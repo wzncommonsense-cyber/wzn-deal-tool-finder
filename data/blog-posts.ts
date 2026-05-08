@@ -21,9 +21,9 @@ export type BlogPost = {
 export const blogPosts: BlogPost[] = [
   {
     slug: "beste-ai-tools-voor-kleine-ondernemers",
-    title: "Beste AI tools voor kleine ondernemers: waar let je op?",
+    title: "Beste AI-tools voor kleine ondernemers: waar let je op?",
     metaDescription:
-      "Praktische gids voor kleine ondernemers die AI tools willen kiezen voor content, klantvragen en dagelijkse workflows.",
+      "Praktische gids voor kleine ondernemers die AI-tools willen kiezen voor content, klantvragen en dagelijkse workflows.",
     excerpt:
       "AI kan veel werk versnellen, maar de juiste keuze hangt af van je doel, data en manier van werken.",
     category: "ai-tools",
@@ -33,7 +33,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Begin met een concreet doel",
         body: [
-          "Kies geen AI tool omdat het populair klinkt. Begin met de vraag waar je tijd verliest. Denk aan social posts voorbereiden, klantvragen sorteren, ideeen uitwerken of ruwe teksten herschrijven.",
+          "Kies geen AI-tool omdat het populair klinkt. Begin met de vraag waar je tijd verliest. Denk aan social posts voorbereiden, klantvragen sorteren, ideeën uitwerken of ruwe teksten herschrijven.",
           "Als het doel duidelijk is, kun je beter beoordelen of een tool echt past. Een ondernemer die vooral content maakt, heeft iets anders nodig dan een bedrijf dat veel supportvragen ontvangt.",
         ],
       },
@@ -41,7 +41,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Let op controle en privacy",
         body: [
           "AI-output moet altijd worden gecontroleerd. Feiten, prijzen, voorwaarden en klantinformatie mogen niet blind worden overgenomen.",
-          "Gebruik geen gevoelige klantgegevens in een AI tool zonder goed te weten hoe die data wordt verwerkt. Zeker bij offertes, medische informatie, juridische zaken of financiele gegevens is voorzichtigheid belangrijk.",
+          "Gebruik geen gevoelige klantgegevens in een AI-tool zonder goed te weten hoe die data wordt verwerkt. Zeker bij offertes, medische informatie, juridische zaken of financiële gegevens is voorzichtigheid belangrijk.",
         ],
       },
       {
@@ -56,12 +56,12 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Wat is een goede eerste AI tool voor ondernemers?",
         answer:
-          "Een schrijftool of algemene AI-assistent is vaak een goed startpunt, omdat je die breed kunt gebruiken voor tekst, ideeen en structuur.",
+          "Een schrijftool of algemene AI-assistent is vaak een goed startpunt, omdat je die breed kunt gebruiken voor tekst, ideeën en structuur.",
       },
       {
         question: "Kan WZN Production helpen met AI workflows?",
         answer:
-          "Ja. WZN Production kan helpen met praktische prompts, AI tools en automatisering die passen bij je website, content of interne werk.",
+          "Ja. WZN Production kan helpen met praktische prompts, AI-tools en automatisering die passen bij je website, content of interne werk.",
       },
     ],
   },

@@ -48,7 +48,7 @@ export default function TermsPage() {
               </h2>
               <p className="mt-3 text-sm leading-6 text-slate-600">
                 Sommige links kunnen affiliate links zijn. Als je via zo&apos;n link
-                iets koopt of aanvraagt, kan WZN Productions een commissie
+                iets koopt of aanvraagt, kan WZN Production een commissie
                 ontvangen. Jij betaalt hierdoor niets extra.
               </p>
             </section>

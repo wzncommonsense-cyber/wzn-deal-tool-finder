@@ -9,7 +9,7 @@ type WznCtaProps = {
 
 export function WznCta({
   title = "Wil je zelf zo'n systeem, website of automatisering laten maken?",
-  text = "WZN Production helpt ondernemers met websites, webapps, AI tools, automatisering en promotiecontent die praktisch inzetbaar is.",
+  text = "WZN Production helpt ondernemers met websites, webapps, AI-tools, automatisering en promotiecontent die praktisch inzetbaar is.",
   compact = false,
 }: WznCtaProps) {
   return (
@@ -51,14 +51,14 @@ export function WznCta({
           <a
             href={withWznUtm()}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className={
               compact
                 ? "inline-flex min-h-11 items-center justify-center gap-2 rounded-lg bg-[#07111f] px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-[#12243b]"
                 : "inline-flex min-h-11 items-center justify-center gap-2 rounded-lg bg-[#2bd4a7] px-5 py-2.5 text-sm font-semibold text-[#07111f] transition hover:bg-[#7ce7cb]"
             }
           >
-            Bekijk WZN Productions
+            Bekijk WZN Production
             <ArrowUpRight aria-hidden="true" size={16} />
           </a>
           <a

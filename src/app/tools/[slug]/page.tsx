@@ -81,7 +81,7 @@ export default async function ToolPage({ params }: ToolPageProps) {
     {
       question: "Kan WZN Production helpen met selectie of uitvoering?",
       answer:
-        "Ja. WZN Production kan helpen met websites, webapps, AI tools, automatisering, promotiecontent en praktische koppeling van tools aan je proces.",
+        "Ja. WZN Production kan helpen met websites, webapps, AI-tools, automatisering, promotiecontent en praktische koppeling van tools aan je proces.",
     },
   ];
 

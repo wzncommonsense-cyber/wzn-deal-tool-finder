@@ -4,7 +4,7 @@ import { siteConfig, withWznUtm } from "@/lib/site";
 
 const navItems = [
   { href: "/", label: "Home" },
-  { href: "/categorieen", label: "Categorieen" },
+  { href: "/categorieen", label: "Categorieën" },
   { href: "/deals", label: "Deals" },
   { href: "/blog", label: "Blog" },
   { href: "/over", label: "Over" },
@@ -29,12 +29,12 @@ export function Header() {
           </span>
         </Link>
 
-        <nav className="flex items-center gap-1 overflow-x-auto pb-1 text-sm text-slate-200 lg:pb-0">
+        <nav className="flex flex-wrap items-center gap-1 text-sm text-slate-200">
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="whitespace-nowrap rounded-md px-3 py-2 transition hover:bg-white/10 hover:text-white"
+              className="whitespace-nowrap rounded-md px-2.5 py-2 transition hover:bg-white/10 hover:text-white lg:px-3"
             >
               {item.label}
             </Link>
@@ -44,10 +44,10 @@ export function Header() {
         <a
           href={withWznUtm()}
           target="_blank"
-          rel="noreferrer"
-          className="inline-flex min-h-10 items-center justify-center gap-2 rounded-lg bg-[#2bd4a7] px-4 py-2 text-sm font-semibold text-[#07111f] transition hover:bg-[#7ce7cb]"
+          rel="noopener noreferrer"
+          className="hidden min-h-10 items-center justify-center gap-2 rounded-lg bg-[#2bd4a7] px-4 py-2 text-sm font-semibold text-[#07111f] transition hover:bg-[#7ce7cb] sm:inline-flex"
         >
-          Bekijk WZN Productions
+          Bekijk WZN Production
           <ArrowUpRight aria-hidden="true" size={16} />
         </a>
       </div>
