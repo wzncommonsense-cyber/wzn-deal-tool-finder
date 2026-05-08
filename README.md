@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WZN Deal & Tool Finder
 
-## Getting Started
+Professionele affiliate/lead-gen website voor kleine ondernemers, starters, zzp'ers en lokale bedrijven.
 
-First, run the development server:
+De site helpt bezoekers om praktische tools, diensten en deals te vinden voor AI, hosting, drukwerk, boekhouding, social media, cursussen, e-mail marketing en ondernemersdiensten.
+
+## Installatie
+
+```bash
+npm install
+```
+
+## Lokaal draaien
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open daarna:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Productiebuild
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Affiliate links beheren
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Alle tools en affiliate links staan in:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```text
+data/tools.ts
+```
 
-## Deploy on Vercel
+Zolang er nog geen goedgekeurde Daisycon link is, blijft `affiliateUrl` op `"#"` staan. De knop toont dan automatisch `Binnenkort beschikbaar`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Voor Daisycon stappen staat er een aparte handleiding:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+README-AFFILIATE-LINKS.md
+```
+
+## Nieuwe tool toevoegen
+
+Voeg een nieuw object toe aan `tools` in `data/tools.ts`.
+
+Belangrijke velden:
+
+- `slug`: unieke URL-naam
+- `name`: naam van de tool of deal
+- `category`: een bestaande categorie
+- `shortDescription`: korte kaarttekst
+- `description`: langere detailtekst
+- `targetAudience`: doelgroepen
+- `benefits`: voordelen
+- `attentionPoints`: aandachtspunten
+- `priceLabel`: zichtbare prijsindicatie
+- `priceModel`: filterwaarde
+- `type`: filterwaarde
+- `affiliateUrl`: Daisycon deeplink of `"#"`
+- `featured`: tonen op de homepage
+
+## Env
+
+Maak lokaal eventueel een `.env.local` op basis van `.env.example`.
+
+```env
+NEXT_PUBLIC_SITE_URL=https://jouwdomein.nl
+```
+
+Voor lokale ontwikkeling:
+
+```env
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+```
+
+Deze variabele wordt gebruikt voor canonical URLs, Open Graph URLs, `robots.ts` en `sitemap.ts`.
+
+## Deploy naar Vercel
+
+1. Push het project naar GitHub.
+2. Maak een nieuw project aan in Vercel.
+3. Kies dit repository.
+4. Zet de environment variable:
+
+```text
+NEXT_PUBLIC_SITE_URL=https://jouwdomein.nl
+```
+
+5. Build command:
+
+```text
+npm run build
+```
+
+6. Deploy.
+
+## Pagina's
+
+- `/`
+- `/categorieen`
+- `/categorieen/ai-tools`
+- `/categorieen/website-hosting`
+- `/categorieen/drukwerk`
+- `/categorieen/boekhouding`
+- `/categorieen/social-media`
+- `/categorieen/cursussen`
+- `/categorieen/email-marketing`
+- `/categorieen/ondernemersdiensten`
+- `/deals`
+- `/tools/[slug]`
+- `/blog`
+- `/blog/beste-ai-tools-voor-kleine-ondernemers`
+- `/blog/beste-website-hosting-voor-starters`
+- `/blog/visitekaartjes-en-flyers-laten-drukken`
+- `/blog/beste-boekhoudprogramma-voor-zzp`
+- `/blog/social-media-tools-voor-ondernemers`
+- `/over`
+- `/contact`
+- `/affiliate-disclaimer`
+- `/privacy`
+- `/voorwaarden`
+
+## WZN Production
+
+De site verwijst op meerdere plekken naar WZN Production voor websites, webapps, AI tools, automatisering, promotiecontent en visuals.
+
+Contact:
+
+```text
+info@wznproduction.nl
+https://www.wznproduction.nl
+```
