@@ -109,8 +109,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             Relevante tools bij dit onderwerp
           </h2>
           <p className="mt-2 text-sm leading-6 text-slate-600">
-            Voorbeeldtools uit dezelfde categorie. Vervang affiliate links later
-            door Daisycon deeplinks.
+            Bekijk opties uit dezelfde categorie en controleer zelf welke
+            oplossing past bij je bedrijf, budget en werkwijze.
           </p>
         </div>
         <div className="grid gap-5 lg:grid-cols-3">

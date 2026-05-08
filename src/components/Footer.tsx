@@ -34,6 +34,12 @@ export function Footer() {
             <Link href="/blog" className="hover:text-[#0e7c66]">
               Blog
             </Link>
+            <Link href="/over" className="hover:text-[#0e7c66]">
+              Over ons
+            </Link>
+            <Link href="/contact" className="hover:text-[#0e7c66]">
+              Contact
+            </Link>
             <Link href="/affiliate-disclaimer" className="hover:text-[#0e7c66]">
               Affiliate disclaimer
             </Link>

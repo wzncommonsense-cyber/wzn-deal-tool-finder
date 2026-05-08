@@ -27,13 +27,13 @@ export default function AffiliateDisclaimerPage() {
           </p>
           <div className="mt-6 grid gap-4 text-sm leading-6 text-slate-600">
             <p>
-              Affiliate links worden handmatig toegevoegd via de centrale
-              data-file. Zolang er nog geen goedgekeurde campagne of deeplink is,
-              blijft de knop op &quot;Binnenkort beschikbaar&quot; staan.
+              Affiliate links worden handmatig beheerd. Zolang er nog geen
+              passende of goedgekeurde link beschikbaar is, blijft de knop op
+              &quot;Binnenkort beschikbaar&quot; staan.
             </p>
             <p>
               Een vermelding op deze website betekent niet automatisch dat er een
-              officieel partnership, review of garantie bestaat. Controleer
+              officiele samenwerking, beoordeling of garantie bestaat. Controleer
               voorwaarden, prijzen en functies altijd zelf bij de aanbieder.
             </p>
           </div>

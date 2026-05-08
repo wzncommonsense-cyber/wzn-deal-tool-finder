@@ -14,7 +14,7 @@ export default function PrivacyPage() {
     <>
       <PageHero
         title="Privacy"
-        description="Korte privacy-informatie voor deze MVP van WZN Deal & Tool Finder."
+        description="Korte privacy-informatie voor bezoekers van WZN Deal & Tool Finder."
       />
 
       <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
@@ -46,10 +46,10 @@ export default function PrivacyPage() {
                 Analytics en cookies
               </h2>
               <p className="mt-3 text-sm leading-6 text-slate-600">
-                In deze MVP is geen analytics-platform verplicht ingebouwd. Als
-                later Google Analytics, Plausible of vergelijkbare tracking wordt
-                toegevoegd, moet dit netjes worden verwerkt in deze privacytekst
-                en cookie-informatie.
+                Op dit moment is er geen analytics-platform verplicht ingebouwd.
+                Als later Google Analytics, Plausible of vergelijkbare tracking
+                wordt toegevoegd, moet dit netjes worden verwerkt in deze
+                privacytekst en cookie-informatie.
               </p>
             </section>
             <section>

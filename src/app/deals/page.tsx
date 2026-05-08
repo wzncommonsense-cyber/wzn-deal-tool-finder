@@ -14,7 +14,7 @@ type DealsPageProps = {
 export const metadata = createMetadata({
   title: "Alle tools en deals",
   description:
-    "Zoek en filter alle voorbeeldtools, diensten en deals voor ondernemers in een overzicht.",
+    "Zoek en filter tools, diensten en deals voor ondernemers in een overzicht.",
   path: "/deals",
 });
 
@@ -25,7 +25,7 @@ export default async function DealsPage({ searchParams }: DealsPageProps) {
     <>
       <PageHero
         title="Alle tools en deals"
-        description="Zoek op onderwerp, filter op prijsmodel, doelgroep, type en categorie. Affiliate links staan centraal in de data-file en zijn nu als placeholder ingesteld."
+        description="Zoek op onderwerp, filter op prijsmodel, doelgroep, type en categorie. Zo vind je sneller opties die passen bij je bedrijf, fase en manier van werken."
       />
 
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">

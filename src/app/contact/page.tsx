@@ -51,8 +51,8 @@ export default function ContactPage() {
             Snelle aanvraag
           </h2>
           <p className="mt-3 text-sm leading-6 text-slate-600">
-            Dit formulier is statisch voor de MVP. Gebruik de mailknop hierboven
-            om je bericht echt te versturen.
+            Gebruik de knop hieronder om je bericht direct via je eigen
+            e-mailprogramma te versturen.
           </p>
           <div className="mt-6 grid gap-4">
             <label className="grid gap-2 text-sm font-medium text-slate-700">

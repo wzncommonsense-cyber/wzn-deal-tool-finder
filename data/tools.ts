@@ -211,13 +211,13 @@ export const tools: Tool[] = [
     featured: false,
   },
   {
-    slug: "drukwerk-partner",
-    name: "Drukwerk Partner",
+    slug: "drukwerk-aanbieder",
+    name: "Drukwerk Aanbieder",
     category: "drukwerk",
     shortDescription:
       "Drukwerkdienst voor flyers, posters, visitekaartjes en promotiemateriaal.",
     description:
-      "Drukwerk Partner is een placeholder voor een drukwerkcampagne via Daisycon. Dit type dienst is interessant voor lokale acties, beurzen, horeca, winkels en ondernemers die offline zichtbaar willen zijn.",
+      "Drukwerk Aanbieder is een generieke vermelding voor een drukwerkdienst. Dit type dienst is interessant voor lokale acties, beurzen, horeca, winkels en ondernemers die offline zichtbaar willen zijn.",
     targetAudience: ["lokale bedrijven", "winkels", "horeca", "starters"],
     benefits: [
       "Geschikt voor acties en lokale promotie",

@@ -106,7 +106,9 @@ export default function Home() {
               De site is opgezet als praktische vergelijker. Je vindt hier
               categorieen zoals AI-tools, hosting, drukwerk, boekhouding,
               social media planning, cursussen, e-mail marketing en
-              ondernemersdiensten.
+              ondernemersdiensten. De vermeldingen zijn bedoeld als startpunt:
+              controleer altijd zelf of een tool, dienst of prijsmodel past bij
+              jouw bedrijf.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-3">
@@ -154,8 +156,8 @@ export default function Home() {
                 Uitgelichte deals en tools
               </h2>
               <p className="mt-2 text-sm leading-6 text-slate-600">
-                Voorbeelditems met placeholder affiliate links. Vervang de links
-                later door je Daisycon deeplinks.
+                Een selectie van praktische opties voor ondernemers. Als een
+                deal nog niet beschikbaar is, staat dat duidelijk op de knop.
               </p>
             </div>
             <Link
@@ -194,15 +196,15 @@ export default function Home() {
               },
               {
                 title: "Eerlijk over affiliate links",
-                text: "De disclosure staat zichtbaar op de site en er worden geen nepclaims gebruikt.",
+                text: "De disclosure staat zichtbaar op de site en er worden geen nepclaims of verzonnen reviews gebruikt.",
               },
               {
-                title: "Handig voor SEO",
-                text: "Categorieen, toolpagina's en blogs hebben eigen metadata en duidelijke content.",
+                title: "Geen onduidelijke samenwerkingen",
+                text: "Een vermelding betekent niet automatisch dat er een officiele samenwerking bestaat.",
               },
               {
-                title: "Klaar voor uitbreiding",
-                text: "Nieuwe deals voeg je toe via de centrale data-file zonder database.",
+                title: "SEO-vriendelijke structuur",
+                text: "Categorieen, toolpagina's en blogs hebben eigen metadata en duidelijke Nederlandse content.",
               },
             ].map((item) => (
               <div key={item.title} className="rounded-xl border border-slate-200 bg-white p-5">

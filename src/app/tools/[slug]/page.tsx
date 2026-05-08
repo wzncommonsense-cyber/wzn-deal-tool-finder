@@ -74,9 +74,9 @@ export default async function ToolPage({ params }: ToolPageProps) {
       )}. Kijk altijd of de functies passen bij jouw bedrijf en werkwijze.`,
     },
     {
-      question: "Is dit al een echte affiliate samenwerking?",
+      question: "Waarom staat de knop soms op Binnenkort beschikbaar?",
       answer:
-        "De link staat nu als placeholder ingesteld. Vervang affiliateUrl in /data/tools.ts later door je goedgekeurde Daisycon deeplink of affiliate trackinglink.",
+        "Dan is er nog geen openbare deal- of aanvraaglink toegevoegd. Zodra een passende link beschikbaar is, wordt deze handmatig gecontroleerd en toegevoegd.",
     },
     {
       question: "Kan WZN Production helpen met selectie of uitvoering?",
@@ -120,7 +120,7 @@ export default async function ToolPage({ params }: ToolPageProps) {
               </div>
               <p className="mt-4 text-xs leading-5 text-slate-500">
                 Staat de knop op &quot;Binnenkort beschikbaar&quot;? Dan is er nog geen
-                goedgekeurde affiliate link ingevuld.
+                deal- of aanvraaglink beschikbaar.
               </p>
             </aside>
           </div>

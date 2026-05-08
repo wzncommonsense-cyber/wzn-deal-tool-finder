@@ -71,8 +71,8 @@ export function ToolExplorer({
             {title}
           </h2>
           <p className="mt-1 text-sm text-slate-600">
-            Filter op prijsmodel, doelgroep en type. Affiliate links kun je later
-            centraal toevoegen.
+            Filter op prijsmodel, doelgroep en type. Gebruik de kaarten als
+            startpunt om gericht te vergelijken.
           </p>
         </div>
         <div className="inline-flex items-center gap-2 text-sm font-medium text-[#0e7c66]">
